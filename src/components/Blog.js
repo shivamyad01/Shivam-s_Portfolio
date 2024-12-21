@@ -86,7 +86,7 @@ function Blog() {
       : blogData.filter((post) => post.category === activeTab);
 
   return (
-    <div className="p-8 md:p-16 bg-gray-50 text-gray-800">
+    <div className="p-8 md:p-16  text-gray-800">
       {/* Blog Heading */}
       <h1 className="text-5xl font-extrabold text-gray-900 mb-6">My Blog</h1>
 

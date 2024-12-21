@@ -1,79 +1,61 @@
 import React from "react";
 
+
 const resumeData = {
   education: [
     {
-      logo: "https://via.placeholder.com/40", // Replace with your logo URL
-      title: "BS in Computer Science",
-      organization: "Arizona State University",
-      duration: "AUGUST 2023 · PRESENT",
+      logo: "https://upload.wikimedia.org/wikipedia/en/4/41/SVIET-transparent-Logo.png", // Replace with your logo URL
+      title: "M.Tech in Computer Science",
+      organization: "Swami Vivekanand Institute of Engineering & Technology, Punjab",
+      duration: "July 2024 · PRESENT",
       description:
         "Throughout my years at ASU, I immersed myself in a dynamic learning environment, surrounded by dedicated faculty and talented peers. ASU focuses on entrepreneurship and leadership which is something that I really like. I got to be a part of Edson Entrepreneurship + Innovation fellowship, Venture devils, Grand Challenges Scholars Program and a lot of clubs.",
     },
     {
-      logo: "https://via.placeholder.com/40",
-      title: "Schooling",
-      organization: "Ryan International School - Mumbai, India",
-      duration: "MAY 2010 · APR 2021",
-      description: "Part of choir, musicians, World's Scholars Cup.",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS73t4yUSVdqYIRVaJeBKtzQaj-L-0fn5PRSA&s", // Replace with your logo URL
+      title: "B.Tech in Information Technology",
+      organization: "Chandigarh Group Of College Landran, Punjab",
+      duration: "July 2020 · July 2024",
+      description:
+        "Throughout my years at ASU, I immersed myself in a dynamic learning environment, surrounded by dedicated faculty and talented peers. ASU focuses on entrepreneurship and leadership which is something that I really like. I got to be a part of Edson Entrepreneurship + Innovation fellowship, Venture devils, Grand Challenges Scholars Program and a lot of clubs.",
     },
+    {
+      logo: "https://content.jdmagicbox.com/comp/gorakhpur/x6/9999px551.x551.170608114151.f7x6/catalogue/maharana-pratap-inter-college-bilandpur-gorakhpur-colleges-vavf9765r4.jpg", // Replace with your logo URL
+      title: "INTERMEDIATE",
+      organization: "Maharana Pratap Inter College, Gorakhpur, Uttar Pradesh",
+      duration: "July 2017 · July 2019",
+      description:
+        "Throughout my years at ASU, I immersed myself in a dynamic learning environment, surrounded by dedicated faculty and talented peers. ASU focuses on entrepreneurship and leadership which is something that I really like. I got to be a part of Edson Entrepreneurship + Innovation fellowship, Venture devils, Grand Challenges Scholars Program and a lot of clubs.",
+    },
+    {
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYT-hRXJPfOoTn8aP5Rga9th7JFZyGn-KZOA&s", // Replace with your logo URL
+      title: "HIGH SCHOOL",
+      organization: "Sacchidanand Inter College, Kushinagar, Uttar Pradesh",
+      duration: "July 2017 · July 2019",
+      description:
+        "Throughout my years at ASU, I immersed myself in a dynamic learning environment, surrounded by dedicated faculty and talented peers. ASU focuses on entrepreneurship and leadership which is something that I really like. I got to be a part of Edson Entrepreneurship + Innovation fellowship, Venture devils, Grand Challenges Scholars Program and a lot of clubs.",
+    },
+   
   ],
   experience: [
     {
-      logo: "https://via.placeholder.com/40",
+      logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGXw6p-wCjdtA/company-logo_200_200/company-logo_200_200/0/1630629117017?e=2147483647&v=beta&t=cQ_rzG9XsklT1EEPNbv9FS4SXJ9VqGWxc9W_tAG0aUA",
       title: "Feature head and Full-Stack developer",
-      organization: "Hypefury",
-      duration: "MAR. 2023 · AUG. 2023",
+      organization: "Epic Web Services",
+      duration: "DECEMBER. 2024 · PRESENT",
       description:
         "As a Project Lead, my responsibility was to oversee and maintain all the codebase of one of Hypefury's core offerings. Typescript, Rust, Python were used in the infrastructure. We utilized NextJS with the 'T-3 stack' - ensuring developer productivity as well as a bug-free typesafe codebase.",
     },
-    {
-      logo: "https://via.placeholder.com/40",
-      title: "Full-stack developer",
-      organization: "Mem0",
-      duration: "MAR. 2022 · JAN. 2023",
-      description:
-        "I built a lot of example apps and client projects for mem0. I was also contributing to educating users, maintaining documentation and creating tutorials. I learned a lot about small startups, AI and LLMs, especially Vector databases and Memory.",
-    },
-    {
-      logo: "https://via.placeholder.com/40",
-      title: "App Developer and Project Manager",
-      organization: "Commnete",
-      duration: "AUG. 2022 · DEC. 2022",
-      description:
-        "This was my first job at a startup. Commnete is a management, security and accounting solution for housing societies. I built their security app for guards, using React native and Expo.",
-    },
+   
   ],
 };
 
 function Resume() {
   return (
-    <div className="p-6 md:p-12 bg-gray-50 text-gray-800">
+    <div className="p-6 md:p-12  text-gray-800">
       {/* Resume Heading */}
-      <h1 className="text-5xl font-extrabold mb-8 text-gray-900 text-center">My resume</h1>
-       {/* Resume Section */}
-       <div className="w-full text-center mt-8">
-        <div className="border-4 border-gray-300 rounded-lg p-4 mb-6">
-          <iframe
-            src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://drive.google.com/uc?id=110KxFMTehR93rdRnsF7UaDcfwY-A_Z-4" // Replace with your resume PDF URL
-            width="100%"
-            height="500px"
-            className="rounded-lg"
-            title="Resume"
-          />
-        </div>
-
-        <p className="text-lg text-gray-700">
-          <a
-            href="https://drive.google.com/uc?id=110KxFMTehR93rdRnsF7UaDcfwY-A_Z-4" // Replace with your resume PDF URL
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
-            Click here to view in full size or download my resume.
-          </a>
-        </p>
-      </div>
+      <h1 className="text-5xl font-extrabold mb-8 text-gray-900">My resume</h1>
+   
 
       {/* Education Section */}
       <section>
